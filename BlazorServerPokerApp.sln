@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerPokerApp", "BlazorServerPokerApp\BlazorServerPokerApp.csproj", "{B7DB5A33-6F3E-4EA7-9CB4-433460900E8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerPokerApp", "BlazorServerPokerApp\BlazorServerPokerApp.csproj", "{B7DB5A33-6F3E-4EA7-9CB4-433460900E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerApp", "PokerApp\PokerApp.csproj", "{2666B156-AAD9-44FB-9AFF-5763D289C78A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B7DB5A33-6F3E-4EA7-9CB4-433460900E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7DB5A33-6F3E-4EA7-9CB4-433460900E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7DB5A33-6F3E-4EA7-9CB4-433460900E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2666B156-AAD9-44FB-9AFF-5763D289C78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2666B156-AAD9-44FB-9AFF-5763D289C78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2666B156-AAD9-44FB-9AFF-5763D289C78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2666B156-AAD9-44FB-9AFF-5763D289C78A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

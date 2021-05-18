@@ -23,6 +23,7 @@ namespace BlazorServerPokerApp
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSignalR();
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
@@ -58,9 +59,12 @@ namespace BlazorServerPokerApp
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapBlazorHub();
+                //endpoints.MapBlazorHub();
+                endpoints.MapRazorPages();
+                endpoints.MapControllers();
                 endpoints.MapHub<UserHub>("/userhub");
-                endpoints.MapFallbackToPage("/_Host");
+                endpoints.MapFallbackToFile("index.html");
+                //endpoints.MapFallbackToPage("/_Host");
             });
         }
     }
